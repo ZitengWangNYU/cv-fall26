@@ -2,7 +2,7 @@
 title: Week 1
 ---
 
-Sept 4
+Sept 3
 : **Lecture 1**{: .label .label-blue }[Advanced Computer Vision: Introduction 1](#)
 : Saining Xie
 
@@ -17,5 +17,5 @@ The Overview: Past, Present and Paths Forward for Computer Vision
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 - [The Philosophy of Deep Learning](https://wp.nyu.edu/consciousness/the-philosophy-of-deep-learning/)
 
-Sept 4
+Sept 3
 : **Early Assignment Release**{: .label .label-green }

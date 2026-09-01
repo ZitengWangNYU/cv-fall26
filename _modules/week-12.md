@@ -2,7 +2,7 @@
 title: Week 12
 ---
 
-Nov 20
+Nov 19
 : **Lecture 12**{: .label .label-blue }[3D Vision](#)
 : Saining Xie
 

@@ -2,7 +2,7 @@
 title: Week 4
 ---
 
-Sept 25
+Sept 24
 : **Lecture 4**{: .label .label-blue }[Training Deep Neural Networks](#)
 : Saining Xie
 
@@ -17,5 +17,5 @@ Optimization, Initialization, Regularization & Normalization
 - [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 - [A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545)
 
-Sept 25
+Sept 24
 : **Assignment 1 release**{: .label .label-green }

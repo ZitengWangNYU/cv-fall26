@@ -46,7 +46,7 @@ Students are expected to have a solid mathematics background and strong programm
 ---
 
 ## Class Schedule
-An updated schedule of individual classes and topics can be found on the [Calendar](/cv-fall25/calendar/) page.
+An updated schedule of individual classes and topics can be found on the [Calendar]({{ site.baseurl }}/calendar/) page.
 
 ---
 
@@ -59,45 +59,119 @@ Grading will be based on three activities:
 
 ### 1. Early assignment
 This small warm-up exercise aims to give you hands-on experience and prepare you for the class.
-More information is available [here](/cv-fall25/assignment). Please follow the instructions to submit your assignment.
+More information is available [here]({{ site.baseurl }}/assignment/). Please follow the instructions to submit your assignment.
 
 ### 2. Semester-long project
-See the information below.
 
-# Project
+The main deliverable of the course is a semester-long project. This year the project runs in **two tracks**. The track determines what tools you may use to *build* your project and how many people build it; within either track you choose what *kind* of project to build. Full details are on the [Project]({{ site.baseurl }}/project/) page.
 
-The main deliverable of the course is a semester-long project, designed to give you the open-ended opportunity to either: 
-1. **[Build a computer vision-powered application or demo]()**. Computer vision models are powerful tools to solve exciting real-world problems. Utilizing various image processing techniques, deep learning architectures, and computer vision APIs, these models can function as ready-to-use tools. They can be employed to automate vision-based interactions with the environment, perform image-based data analytics, generate or manipulate visual content, enhance real-time video streams, reconstruct 3D scenes, or simply build something cool.
+#### Two Tracks
 
+##### Artisan Track
 
-2. **[Conduct a research project]()**. Should you wish to explore the research aspects of computer vision more thoroughly, we invite you to undertake a research project tailored to your interests. Your focus could be on identifying a specific research topic within the realms of computer vision. You can conduct comparative studies to uncover the limitations of current vision models, or enhance the overall design—be it through optimizing data pipelines, training objectives, or architectures.
+You build it yourself. Every line of code you submit, and every word of your report, is written by a human member of your team.
 
-Be aware that the line separating a demo from a research project can be somewhat indistinct; the instructor will assist you in appropriately categorizing your project idea. Additionally, there is no grading preference for either application/demo or research projects, so feel free to select the option that most excite you!
+**Team size: 2–5 students.** Teamwork is an explicit learning objective of this track.
 
-### Project logistics  
-Both project formats may be done in **teams of 2-5 students** (individual projects are not allowed unless directly approved by the instructor. Teamwork is an essential learning objective). We expect every team member to contribute to the project (and individual contributions should be clearly listed).
+**Not permitted:** LLM or agent code generation, autocompletion, or refactoring (Copilot, Cursor, Claude Code, ChatGPT, and equivalents); asking an assistant to debug your code, design your architecture, or draft your report or slides.
 
-We will organize your project progress into **two key milestones**: (1) a preliminary proposal, and (2) a final submission/presentation. The dates for these milestones will be disclosed soon.
+**Explicitly permitted** — this is a computer vision course, and these are not what the restriction is about:
 
-The **[preliminary proposal]()** should sketch out the research question or application you're keen to explore, along with the methodology you intend to employ. This should feature a concise overview of the CV methods you aim to utilize, as well as a list of potential metrics for evaluating success.
+- Pretrained vision models as components of your system (CLIP, SAM, diffusion models, VLMs, and so on). Using a pretrained network is the subject matter of this course, not a shortcut around it.
+- Standard libraries and frameworks: PyTorch, HuggingFace, OpenCV, etc.
+- Documentation, papers, textbooks, StackOverflow, and course materials.
 
-For the **[final submission]()**, both write-up and code repo will be required, regardless of the project format. We will schedule a **[presentation/poster session]()** for each team to present their work during the final week of the semester. Additional specifics will be provided soon, but anticipate the following:
+The distinction is **AI as author** (not permitted) versus **AI as a component of the system you are studying** (encouraged).
 
-- **Application/demo** submissions to include a functional demo of your application, possibly through platforms like [Gradio](https://gradio.app/) or [Streamlit](https://streamlit.io/). This should be accompanied by a brief written explanation that outlines the problem you're addressing, the CV model(s) you've employed, and your implementation and evaluation process.
+##### Agent Track
 
-- **Research project** submissions to a final report resembling a research paper (ranging from 4 to 9 pages, excluding references) and a code repository to replicate your findings. Clear and succinct writing is crucial; any lack of clarity or unnecessary complexity may lead to point deductions. For projects involving multiple contributors, a delineation of each participant's role is mandatory. All submissions must be LaTeX-formatted and provided in PDF format (exceptions must be approved by the instructor). Utilizing user-friendly web platforms like [Overleaf](https://www.overleaf.com/) is strongly encouraged.
+Use whatever you want. Coding agents, LLMs, AI-assisted writing, AI-generated figures and slides — there are no tooling restrictions at any stage of this track.
 
-### Project Proposal Submission Instructions
+**Team size: one.** Agent Track projects are individual. The premise of this track is that agents multiply what a single person can build, so your team is you and your tooling, and the unit of work and of assessment is one student.
 
-Please submit your project proposal by [TBD] at 4:00 PM ET via Gradescope. Your submission should be in PDF format and include detailed information about your project idea, significance, expected deliverables, potential risks, and a preliminary timeline to monitor progress.
+Because the tooling is unrestricted and you are working alone, **scope expectations are calibrated accordingly**: we expect an Agent Track submission to reach well beyond what one student could hand-build in a semester.
 
-### Proposal Feedback Sessions
+**One additional required deliverable — the Agent Log.** Submitted as an appendix to your final report and excluded from the page limit:
 
-Take advantage of the opportunity to receive feedback from the instructors and enhance your proposal. We've allocated times on [TBD], for proposal review sessions. Each group will be allotted a 15-minute session to discuss your proposal with the instructor. To book your slot, please use the Calendly link provided in the email sent to you.
+1. What tooling you used, and how you divided the work between yourself and it.
+2. Where it failed: the bugs it introduced, the approaches it got wrong, the things it confidently asserted that were false.
+3. What you had to diagnose or build by hand, and how you verified the final system actually works.
 
-### Access to Computing Facilities
+Item 2 and item 3 carry the most weight. Anyone can point an agent at a problem; the interesting question — and the one this track is really asking — is what you learned about where it breaks and how you established that the result is correct.
 
-Upon reviewing your proposal, you might be eligible to get access to both NYU HPC and Google Cloud credits. You are free to use your own computng resources. As you draft your proposal, consider which of these resources would be best suited for your project and mention it in your submission. You are encouraged to build upon current open-source codebases such as [Diffuser](https://github.com/huggingface/diffusers), [LLaVA](https://github.com/haotian-liu/LLaVA), etc. 
+##### What applies to both tracks
+
+- **Version control.** Submit a repository with incremental commit history. A single bulk commit at the deadline is not acceptable in either track.
+- **Code walkthrough.** At the final presentation you may be asked to explain any part of your submission; in the Artisan Track, that question may go to any member of the team. This applies identically to both tracks and is a significant component of the project grade.
+- **Track declaration.** You declare your track in your proposal and restate it in your final report.
+
+##### Choosing and switching
+
+Your track determines your team structure, so the two decisions are made together and recorded in your proposal.
+
+An Artisan team may switch to the Agent Track up to **Thursday, November 5**. Because Agent Track projects are individual, a switching team must dissolve: each member continues as their own Agent Track project. Switching therefore needs staff approval — talk to us before committing to it — and must be disclosed, with its timing, in your final report.
+
+You may **not** switch from Agent to Artisan: once generated code is in your project, it cannot be unwound.
+
+#### Project format
+
+Independently of your track, choose one of two formats:
+
+1. **Build a computer vision-powered application or demo.** Computer vision models are powerful tools for solving real-world problems. Using image processing techniques, deep learning architectures, and vision APIs, you can automate vision-based interaction with the environment, perform image-based analytics, generate or manipulate visual content, enhance real-time video, reconstruct 3D scenes, or simply build something cool.
+
+2. **Conduct a research project.** If you would rather explore the research side of computer vision, identify a research question of your own: run comparative studies that expose the limitations of current vision models, or improve on their design through data pipelines, training objectives, or architectures.
+
+The line between a demo and a research project can be indistinct; the teaching staff will help you categorize your idea. There is no grading preference between the two.
+
+#### Project logistics
+
+Team composition is determined by your track:
+
+- **Artisan Track** — teams of **2–5 students**. Individual projects are not allowed unless directly approved by the instructor; teamwork is an explicit learning objective of this track. Every team member is expected to contribute, and individual contributions must be clearly listed in the final report.
+- **Agent Track** — **individual only**, one student per project.
+
+##### Milestones
+
+| Milestone | Date | Due |
+|---|---|---|
+| Proposal | Thursday, October 1 | 6:00 PM ET, Gradescope |
+| Proposal feedback sessions | Week of October 8 | 15 min per team, by appointment |
+| Track switch deadline (Artisan → Agent) | Thursday, November 5 | — |
+| Final presentation | Thursday, December 10 | In class |
+| Final report, code, and Agent Log | Friday, December 18 | 11:59 PM ET, Gradescope |
+
+##### Proposal
+
+Submit a PDF via Gradescope by **6:00 PM ET on Thursday, October 1**. Your proposal should sketch the research question or application you intend to explore and the methodology you plan to use, including a concise overview of the computer vision methods involved and the metrics you will use to evaluate success. It should also state your project's significance, expected deliverables, potential risks, and a preliminary timeline.
+
+**Your proposal must state your track and your format.**
+
+##### Proposal feedback sessions
+
+Each team gets a 15-minute session with the instructor during the week of October 8 to discuss the proposal and improve it. Booking details will be sent by email.
+
+##### Final submission
+
+Both a write-up and a code repository are required, in either track and either format.
+
+- **Application / demo** submissions should include a working demo — for example via [Gradio](https://gradio.app/) or [Streamlit](https://streamlit.io/) — with a written explanation of the problem, the models used, and your implementation and evaluation.
+
+- **Research project** submissions should include a report in the form of a research paper (4–9 pages excluding references) and a repository that reproduces your results. Clear, succinct writing matters; unnecessary complexity or lack of clarity will cost points. Reports must be typeset in LaTeX and submitted as PDF ([Overleaf](https://www.overleaf.com/) is strongly encouraged).
+
+Agent Track submissions additionally include the **Agent Log** as an appendix.
+
+##### Grading
+
+The project is **45%** of your course grade. Both tracks are worth the same, but they are assessed against different rubrics:
+
+- **Artisan Track** — depth and correctness of implementation, and demonstrated understanding of the system you built. A smaller system, understood completely, scores well here.
+- **Agent Track** — ambition and scope, the design of your workflow, and above all *verification*: the evidence that what you shipped actually works, and the quality of your failure analysis.
+
+The code walkthrough at the final presentation contributes to both.
+
+##### Access to computing facilities
+
+After your proposal is reviewed, you may be eligible for access to NYU HPC and Google Cloud credits. You are also free to use your own compute. Consider which resources suit your project and say so in your proposal. You are encouraged to build on existing open-source codebases such as [diffusers](https://github.com/huggingface/diffusers) and [LLaVA](https://github.com/haotian-liu/LLaVA).
 
 ### 3. Class attendance and participation 
 
@@ -130,33 +204,26 @@ The course does not closely follow a particular text; the lectures are meant to 
 
 ### Policy on the Use of Large Language Models (LLMs)
 
-To support learning while maintaining academic integrity, the following rules apply to the use of large language models (e.g., ChatGPT, Claude, Gemini, etc.) in this course:
-### Assignments
-* You **may use LLMs** to assist with **assignments**.
-* If you use an LLM, you must **explicitly acknowledge** this use (e.g., “This assignment used ChatGPT to help brainstorm code structure” or “I used Claude to check my explanation for clarity”).
-* Failure to disclose use of LLMs will be considered a violation of academic honesty.
+Rules differ between assignments and the project. Read both.
 
-### Course Report
-* LLMs **may not be used to generate substantive content** of your course report.
-* You may only use them for **rephrasing or proofreading** text you have written yourself.
-* All analysis, results, and explanations must be your own original work.
+#### Assignments (Assignment 0-3)
 
-### Presentations
-* LLMs **may not be used** to generate your presentation slides, speaker notes, or presentation script.
-* Presentations must reflect your personal understanding of the material and your own ability to communicate it.
+* You **may use LLMs** to assist with assignments.
+* You must **explicitly acknowledge** that use (e.g. "I used ChatGPT to help brainstorm the code structure" or "I used Claude to check my explanation for clarity").
+* Failure to disclose use of LLMs is a violation of academic honesty.
 
-### General Expectations
-* Treat LLMs as a tool for support, not as a substitute for your own reasoning, coding, or analysis.
-* Always critically evaluate any suggestions provided by an LLM.
-* If in doubt about acceptable use, ask the instructor before submitting work.
+#### Project
 
+Governed by your project track — see the [Project]({{ site.baseurl }}/project/) page.
 
+* **Artisan Track**: no LLM or agent authoring at any stage — code, report, or slides. Pretrained vision models as components of your system are permitted and encouraged; the restriction is on AI writing your work, not on neural networks as subject matter.
+* **Agent Track**: no restrictions on tooling. You must submit the Agent Log described on the Project page, and you remain fully accountable for everything you submit.
 
+In both tracks, you may be asked to explain any part of your submission during the final presentation.
 
+#### General expectations
 
-
-
-
-
-
-# cv-fall25
+* Treat LLMs as a tool for support, not a substitute for your own reasoning.
+* Always critically evaluate any suggestion an LLM gives you.
+* Submitting work you cannot explain is a problem in either track.
+* If in doubt about acceptable use, ask the instructor before submitting.

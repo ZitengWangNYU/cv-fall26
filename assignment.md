@@ -40,5 +40,5 @@ For the theory questions, following the instructions in the PDF file and submit 
 
 For the coding warmup, submit a notebook of your results (as an .ipynb file).
 
-Both assignments are due at 6:00PM on 9/11/25. Please submit them on Gradescope (Course Entry Code will be sent in email)
+Both assignments are due at 6:00PM on 9/10/26. Please submit them on Gradescope (Course Entry Code will be sent in email)
 

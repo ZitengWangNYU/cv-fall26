@@ -2,7 +2,7 @@
 title: Week 3
 ---
 
-Sept 18
+Sept 17
 : **Lecture 3**{: .label .label-blue }[Introduction to Deep Learning](#)
 : Saining Xie
 

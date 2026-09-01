@@ -17,7 +17,8 @@ title: CSCI-GA 2271 Computer Vision
 tagline: Advanced Computer Vision
 description: Advanced Computer Vision
 author: Saining Xie
-url: 'https://www.sainingxie.com/cv-fall24.html' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://zitengwangnyu.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/cv-fall26'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 markdown: kramdown
 
