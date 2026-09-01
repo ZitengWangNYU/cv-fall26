@@ -76,18 +76,13 @@ where it breaks and how you established that the result is correct.
 - **Track declaration.** You declare your track in your proposal and restate it in your
   final report.
 
-### Choosing and switching
+### Choosing your track
 
 Your track determines your team structure, so the two decisions are made together and
 recorded in your proposal.
 
-An Artisan team may switch to the Agent Track up to **Thursday, November 5**. Because
-Agent Track projects are individual, a switching team must dissolve: each member continues
-as their own Agent Track project. Switching therefore needs staff approval — talk to us
-before committing to it — and must be disclosed, with its timing, in your final report.
-
-You may **not** switch from Agent to Artisan: once generated code is in your project, it
-cannot be unwound.
+Your track is final once your proposal is submitted. There is no switching between tracks
+during the semester, in either direction.
 
 ---
 
@@ -127,7 +122,6 @@ Team composition is determined by your track:
 |---|---|---|
 | Proposal | Thursday, October 1 | 6:00 PM ET, Gradescope |
 | Proposal feedback sessions | Week of October 8 | 15 min per team, by appointment |
-| Track switch deadline (Artisan → Agent) | Thursday, November 5 | — |
 | Final presentation | Thursday, December 10 | In class |
 | Final report, code, and Agent Log | Friday, December 18 | 11:59 PM ET, Gradescope |
 
