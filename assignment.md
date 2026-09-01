@@ -16,10 +16,14 @@ The early assignment (Assignment 0) is divided into two parts:
 1. **Coding Warmup**: In the first part of the assignment, you will run through the following colab notebooks and then aggregate them together for something new. 
 
 {% comment %}
-Colab for model 1 pulled 2026-09-01: the linked notebook returns 404 on both Drive
-endpoints (deleted or un-shared). Restore this line once a replacement is available.
-  - [Colab for model 1](https://colab.research.google.com/drive/1jv79xFj5cvSS4ZNpjQsocOEFrJ3oeaCk?usp=sharing)
+Model 1 (Segment Anything): the original notebook 1jv79xFj5cvSS4ZNpjQsocOEFrJ3oeaCk was
+deleted or un-shared and 404s. The link below is the llvm-sp25 copy of the same notebook
+(verified via Colab provenance metadata; cell content of the sibling notebooks is identical).
+It lives in another course's Drive, so re-host a copy under this course's Drive when
+convenient to avoid the same failure.
 {% endcomment %}
+
+  - [Colab for model 1](https://colab.research.google.com/drive/1OBUjW8BtUZIBGaJUfbkI3HBN_HiBZ1xy)
 
   - [Colab for model 2](https://colab.research.google.com/drive/1k5LipKpxT5zpMCmFFvc1NVZMCG4Xvaxy?usp=sharing)
 
