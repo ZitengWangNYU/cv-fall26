@@ -21,13 +21,13 @@ how many people build it; within either track you choose what *kind* of project 
 You build it yourself. Every line of code you submit, and every word of your report, is
 written by a human member of your team.
 
-**Team size: 2â5 students.** Teamwork is an explicit learning objective of this track.
+**Team size: 2–5 students.** Teamwork is an explicit learning objective of this track.
 
 **Not permitted:** LLM or agent code generation, autocompletion, or refactoring (Copilot,
 Cursor, Claude Code, ChatGPT, and equivalents); asking an assistant to debug your code,
 design your architecture, or draft your report or slides.
 
-**Explicitly permitted** â this is a computer vision course, and these are not what the
+**Explicitly permitted** — this is a computer vision course, and these are not what the
 restriction is about:
 
 - Pretrained vision models as components of your system (CLIP, SAM, diffusion models,
@@ -42,7 +42,7 @@ system you are studying** (encouraged).
 ### Agent Track
 
 Use whatever you want. Coding agents, LLMs, AI-assisted writing, AI-generated figures and
-slides â there are no tooling restrictions at any stage of this track.
+slides — there are no tooling restrictions at any stage of this track.
 
 **Team size: one.** Agent Track projects are individual. The premise of this track is that
 agents multiply what a single person can build, so your team is you and your tooling, and
@@ -52,7 +52,7 @@ Because the tooling is unrestricted and you are working alone, **scope expectati
 calibrated accordingly**: we expect an Agent Track submission to reach well beyond what
 one student could hand-build in a semester.
 
-**One additional required deliverable â the Agent Log.** Submitted as an appendix to your
+**One additional required deliverable — the Agent Log.** Submitted as an appendix to your
 final report and excluded from the page limit:
 
 1. What tooling you used, and how you divided the work between yourself and it.
@@ -62,7 +62,7 @@ final report and excluded from the page limit:
    actually works.
 
 Item 2 and item 3 carry the most weight. Anyone can point an agent at a problem; the
-interesting question â and the one this track is really asking â is what you learned about
+interesting question — and the one this track is really asking — is what you learned about
 where it breaks and how you established that the result is correct.
 
 ### What applies to both tracks
@@ -110,11 +110,11 @@ help you categorize your idea. There is no grading preference between the two.
 
 Team composition is determined by your track:
 
-- **Artisan Track** â teams of **2â5 students**. Individual projects are not allowed unless
+- **Artisan Track** — teams of **2–5 students**. Individual projects are not allowed unless
   directly approved by the instructor; teamwork is an explicit learning objective of this
   track. Every team member is expected to contribute, and individual contributions must be
   clearly listed in the final report.
-- **Agent Track** â **individual only**, one student per project.
+- **Agent Track** — **individual only**, one student per project.
 
 ### Proposal
 
@@ -134,12 +134,12 @@ via Gradescope.
 
 Both a write-up and a code repository are required, in either track and either format.
 
-- **Application / demo** submissions should include a working demo â for example via
-  [Gradio](https://gradio.app/) or [Streamlit](https://streamlit.io/) â with a written
+- **Application / demo** submissions should include a working demo — for example via
+  [Gradio](https://gradio.app/) or [Streamlit](https://streamlit.io/) — with a written
   explanation of the problem, the models used, and your implementation and evaluation.
 
 - **Research project** submissions should include a report in the form of a research paper
-  (4â9 pages excluding references) and a repository that reproduces your results. Clear,
+  (4–9 pages excluding references) and a repository that reproduces your results. Clear,
   succinct writing matters; unnecessary complexity or lack of clarity will cost points.
   Reports must be typeset in LaTeX and submitted as PDF
   ([Overleaf](https://www.overleaf.com/) is strongly encouraged).
@@ -151,10 +151,10 @@ Agent Track submissions additionally include the **Agent Log** as an appendix.
 The project is **45%** of your course grade. Both tracks are worth the same, but they are
 assessed against different rubrics:
 
-- **Artisan Track** â depth and correctness of implementation, and demonstrated
+- **Artisan Track** — depth and correctness of implementation, and demonstrated
   understanding of the system you built. A smaller system, understood completely, scores
   well here.
-- **Agent Track** â ambition and scope, the design of your workflow, and above all
+- **Agent Track** — ambition and scope, the design of your workflow, and above all
   *verification*: the evidence that what you shipped actually works, and the quality of
   your failure analysis.
 
