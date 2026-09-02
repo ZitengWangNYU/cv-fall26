@@ -104,7 +104,10 @@ We will organize your project progress into **two key milestones**: (1) a prelim
 
 The **preliminary proposal** should sketch out the research question or application you're keen to explore, along with the methodology you intend to employ. This should feature a concise overview of the computer vision methods you aim to utilize, as well as a list of potential metrics for evaluating success.
 
-For the **final submission**, both write up and code repo will be required, regardless of the project format. We will schedule a **presentation/poster session** for each team to present their work during the final week of the semester. Presentations are in class on **Thursday, December 10**, and the write up, code, and — for Agent Track — the Agent Log are due at **11:59 PM ET on Friday, December 18** via Gradescope. Anticipate the following:
+For the **final submission**, both write up and code repo will be required, regardless of the
+project format. We will schedule a **presentation/poster session** for each team to present
+their work during the final week of the semester. Additional specifics will be provided soon,
+but anticipate the following:
 
 - **Application / demo** submissions to include a functional demo of your application, possibly through platforms like [Gradio](https://gradio.app/) or [Streamlit](https://streamlit.io/). This should be accompanied by a brief written explanation that outlines the problem you're addressing, the computer vision model(s) you've employed, and your implementation and evaluation process.
 
@@ -114,7 +117,10 @@ Agent Track submissions additionally include the **Agent Log** as an appendix.
 
 ## Project Proposal Submission Instructions
 
-Please submit your project proposal by **6:00 PM ET on Thursday, October 1** via Gradescope. Your submission should be in PDF format and include detailed information about your project idea, significance, expected deliverables, potential risks, and a preliminary timeline to monitor progress. **Your proposal must state your track and your format.**
+Please submit your project proposal via Gradescope. Your submission should be in PDF format and
+include detailed information about your project idea, significance, expected deliverables,
+potential risks, and a preliminary timeline to monitor progress. **Your proposal must state
+your track and your format.**
 
 ## Grading
 
