@@ -21,7 +21,7 @@ how many people build it; within either track you choose what *kind* of project 
 You build it yourself. Every line of code you submit, and every word of your report, is
 written by a human member of your team.
 
-**Team size: 2–5 students.** Teamwork is an explicit learning objective of this track.
+**Team size: 2-5 students.** Teamwork is an explicit learning objective of this track.
 
 **Not permitted:** LLM or agent code generation, autocompletion, or refactoring (Copilot,
 Cursor, Claude Code, ChatGPT, and equivalents); asking an assistant to debug your code,
@@ -88,65 +88,35 @@ during the semester, in either direction.
 
 ## Project format
 
-Independently of your track, choose one of two formats:
+Within either track, the project is designed to give you the open-ended opportunity to either:
 
-1. **Build a computer vision-powered application or demo.** Computer vision models are
-   powerful tools for solving real-world problems. Using image processing techniques, deep
-   learning architectures, and vision APIs, you can automate vision-based interaction with
-   the environment, perform image-based analytics, generate or manipulate visual content,
-   enhance real-time video, reconstruct 3D scenes, or simply build something cool.
+1. **Build a computer vision-powered application or demo**. Computer vision models are powerful tools to solve exciting real-world problems. Utilizing various image processing techniques, deep learning architectures, and computer vision APIs, these models can function as ready-to-use tools. They can be employed to automate visual inspection processes, perform image-based data analytics, generate or manipulate visual content, enhance real-time video streams, or simply build something visually cool.
 
-2. **Conduct a research project.** If you would rather explore the research side of
-   computer vision, identify a research question of your own: run comparative studies that
-   expose the limitations of current vision models, or improve on their design through
-   data pipelines, training objectives, or architectures.
+2. **Conduct a research project**. Should you wish to explore the research aspects of computer vision more thoroughly, we invite you to undertake a research project tailored to your interests. Your focus could be on identifying a specific research topic within the realms of computer vision, image processing, and deep learning. You can conduct comparative studies to uncover the limitations of current CV models, or enhance the overall design—be it through optimizing data pipelines, training objectives, or architectures.
 
-The line between a demo and a research project can be indistinct; the teaching staff will
-help you categorize your idea. There is no grading preference between the two.
-
----
+Be aware that the line separating a demo from a research project can be somewhat indistinct; the instructor will assist you in appropriately categorizing your project idea. Additionally, there is no grading preference for either application/demo or research projects, so feel free to select the option that most excites you!
 
 ## Project logistics
 
-Team composition is determined by your track:
+Team composition is determined by your track. **Artisan Track** projects may be done in **teams of 2-5 students** (individual projects are not allowed unless directly approved by the instructor). We expect every team member to contribute to the project (and individual contributions should be clearly listed). **Agent Track** projects are individual, one student per project.
 
-- **Artisan Track** — teams of **2–5 students**. Individual projects are not allowed unless
-  directly approved by the instructor; teamwork is an explicit learning objective of this
-  track. Every team member is expected to contribute, and individual contributions must be
-  clearly listed in the final report.
-- **Agent Track** — **individual only**, one student per project.
+We will organize your project progress into **two key milestones**: (1) a preliminary proposal, and (2) a final submission/presentation.
 
-### Proposal
+The **preliminary proposal** should sketch out the research question or application you're keen to explore, along with the methodology you intend to employ. This should feature a concise overview of the computer vision methods you aim to utilize, as well as a list of potential metrics for evaluating success.
 
-Submit a PDF via Gradescope by **6:00 PM ET on Thursday, October 1**. Your proposal should
-sketch the research question or application you intend to explore and the methodology you
-plan to use, including a concise overview of the computer vision methods involved and the
-metrics you will use to evaluate success. It should also state your project's significance,
-expected deliverables, potential risks, and a preliminary timeline.
+For the **final submission**, both write up and code repo will be required, regardless of the project format. We will schedule a **presentation/poster session** for each team to present their work during the final week of the semester. Presentations are in class on **Thursday, December 10**, and the write up, code, and — for Agent Track — the Agent Log are due at **11:59 PM ET on Friday, December 18** via Gradescope. Anticipate the following:
 
-**Your proposal must state your track and your format.**
+- **Application / demo** submissions to include a functional demo of your application, possibly through platforms like [Gradio](https://gradio.app/) or [Streamlit](https://streamlit.io/). This should be accompanied by a brief written explanation that outlines the problem you're addressing, the computer vision model(s) you've employed, and your implementation and evaluation process.
 
-### Final submission
-
-Presentations are in class on **Thursday, December 10**. The write-up, code repository,
-and — for Agent Track — the Agent Log are due at **11:59 PM ET on Friday, December 18**
-via Gradescope.
-
-Both a write-up and a code repository are required, in either track and either format.
-
-- **Application / demo** submissions should include a working demo — for example via
-  [Gradio](https://gradio.app/) or [Streamlit](https://streamlit.io/) — with a written
-  explanation of the problem, the models used, and your implementation and evaluation.
-
-- **Research project** submissions should include a report in the form of a research paper
-  (4–9 pages excluding references) and a repository that reproduces your results. Clear,
-  succinct writing matters; unnecessary complexity or lack of clarity will cost points.
-  Reports must be typeset in LaTeX and submitted as PDF
-  ([Overleaf](https://www.overleaf.com/) is strongly encouraged).
+- **Research project** submissions to a final report resembling a research paper (ranging from 4 to 9 pages, excluding references) and a code repository to replicate your findings. Clear and succinct writing is crucial; any lack of clarity or unnecessary complexity may lead to point deductions. For projects involving multiple contributors, a delineation of each participant's role is mandatory. All submissions must be LaTeX-formatted and provided in PDF format (exceptions must be approved by the instructor). Utilizing user-friendly web platforms like Overleaf is strongly encouraged.
 
 Agent Track submissions additionally include the **Agent Log** as an appendix.
 
-### Grading
+## Project Proposal Submission Instructions
+
+Please submit your project proposal by **6:00 PM ET on Thursday, October 1** via Gradescope. Your submission should be in PDF format and include detailed information about your project idea, significance, expected deliverables, potential risks, and a preliminary timeline to monitor progress. **Your proposal must state your track and your format.**
+
+## Grading
 
 The project is **45%** of your course grade. Both tracks are worth the same, but they are
 assessed against different rubrics:
@@ -160,10 +130,6 @@ assessed against different rubrics:
 
 The code walkthrough at the final presentation contributes to both.
 
-### Access to computing facilities
+## Access to Computing Facilities
 
-After your proposal is reviewed, you may be eligible for access to NYU HPC and Google Cloud
-credits. You are also free to use your own compute. Consider which resources suit your
-project and say so in your proposal. You are encouraged to build on existing open-source
-codebases such as [diffusers](https://github.com/huggingface/diffusers) and
-[LLaVA](https://github.com/haotian-liu/LLaVA).
+Upon reviewing your proposal, you might be eligible to get access to both NYU HPC and Google Cloud Credit. You are free to use your own computing resources. As you draft your proposal, consider which of these resources would be best suited for your project and mention it in your submission. You are encouraged to build upon current open-source codebases.
