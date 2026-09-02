@@ -31,11 +31,13 @@ convenient to avoid the same failure.
 
   - [Colab for assignment tasks](https://colab.research.google.com/drive/1D5Hs6LvQZIeESsnH4BvbeWtjIuc8Dvh2?usp=sharing)
 
-2. **Theory Questions**: In the second part of the assignment, you will need to download this pdf [early_assignment_theory](
-https://drive.google.com/file/d/1Qus2LPjn8ivgr0BEybxV_GMChqCQhflf/view?usp=sharing) and finish all the questions.
+{% comment %}
+Theory PDF now served from this repo rather than Google Drive: the Drive copy
+(1Qus2LPjn8ivgr0BEybxV_GMChqCQhflf) still holds the Fall 2025 build. Serving it locally
+keeps it version-controlled and immune to sharing changes.
+{% endcomment %}
 
-{: .important }
-> The cover page of that PDF still carries last year's dates. **This website is authoritative**: the assignment is released Sept 3, 2026 and due at 6:00 PM ET on Sept 10, 2026. An updated PDF will be posted shortly.
+2. **Theory Questions**: In the second part of the assignment, you will need to download this pdf [early_assignment_theory]({{ site.baseurl }}/assets/assignments/early_assignment_thoery.pdf) and finish all the questions.
 
 We highly recommend this linear algebra review and reference.
 [Linear Algebra Review](http://www.cs.cmu.edu/~zkolter/course/15-884/linalg-review.pdf)
