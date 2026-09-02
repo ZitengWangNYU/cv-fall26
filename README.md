@@ -133,7 +133,6 @@ Team composition is determined by your track:
 | Milestone | Date | Due |
 |---|---|---|
 | Proposal | Thursday, October 1 | 6:00 PM ET, Gradescope |
-| Proposal feedback sessions | Week of October 8 | 15 min per team, by appointment |
 | Final presentation | Thursday, December 10 | In class |
 | Final report, code, and Agent Log | Friday, December 18 | 11:59 PM ET, Gradescope |
 
@@ -142,10 +141,6 @@ Team composition is determined by your track:
 Submit a PDF via Gradescope by **6:00 PM ET on Thursday, October 1**. Your proposal should sketch the research question or application you intend to explore and the methodology you plan to use, including a concise overview of the computer vision methods involved and the metrics you will use to evaluate success. It should also state your project's significance, expected deliverables, potential risks, and a preliminary timeline.
 
 **Your proposal must state your track and your format.**
-
-##### Proposal feedback sessions
-
-Each team gets a 15-minute session with the instructor during the week of October 8 to discuss the proposal and improve it. Booking details will be sent by email.
 
 ##### Final submission
 
