@@ -63,15 +63,13 @@ More information is available [here]({{ site.baseurl }}/assignment/). Please fol
 
 ### 2. Semester-long project
 
-The main deliverable of the course is a semester-long project. This year the project runs in **two tracks**. The track determines what tools you may use to *build* your project and how many people build it; within either track you choose what *kind* of project to build. Full details are on the [Project]({{ site.baseurl }}/project/) page.
+The main deliverable of the course is a semester-long project. This year the project runs in **two tracks**. The track determines what tools you may use to *build* your project; within either track you choose what *kind* of project to build. Full details are on the [Project]({{ site.baseurl }}/project/) page.
 
 #### Two Tracks
 
 ##### Artisan Track
 
 You build it yourself. Every line of code you submit, and every word of your report, is written by a human member of your team.
-
-**Team size: 2-5 students.** Teamwork is an explicit learning objective of this track.
 
 **Not permitted:** LLM or agent code generation, autocompletion, or refactoring (Copilot, Cursor, Claude Code, ChatGPT, and equivalents); asking an assistant to debug your code, design your architecture, or draft your report or slides.
 
@@ -87,13 +85,11 @@ The distinction is **AI as author** (not permitted) versus **AI as a component o
 
 Use whatever you want. Coding agents, LLMs, AI-assisted writing, AI-generated figures and slides — there are no tooling restrictions at any stage of this track.
 
-**Team size: one.** Agent Track projects are individual. The premise of this track is that agents multiply what a single person can build, so your team is you and your tooling, and the unit of work and of assessment is one student.
-
-Because the tooling is unrestricted and you are working alone, **scope expectations are calibrated accordingly**: we expect an Agent Track submission to reach well beyond what one student could hand-build in a semester.
+Because the tooling is unrestricted, **scope expectations are calibrated accordingly**: we expect an Agent Track submission to reach well beyond what the same team could hand-build in a semester.
 
 **One additional required deliverable — the Agent Log.** Submitted as an appendix to your final report and excluded from the page limit:
 
-1. What tooling you used, and how you divided the work between yourself and it.
+1. What tooling you used, and how you divided the work between yourselves and it.
 2. Where it failed: the bugs it introduced, the approaches it got wrong, the things it confidently asserted that were false.
 3. What you had to diagnose or build by hand, and how you verified the final system actually works.
 
@@ -102,12 +98,12 @@ Item 2 and item 3 carry the most weight. Anyone can point an agent at a problem;
 ##### What applies to both tracks
 
 - **Version control.** Submit a repository with incremental commit history. A single bulk commit at the deadline is not acceptable in either track.
-- **Code walkthrough.** At the final presentation you may be asked to explain any part of your submission; in the Artisan Track, that question may go to any member of the team. This applies identically to both tracks and is a significant component of the project grade.
+- **Code walkthrough.** At the final presentation, any member of the team may be asked to
+  explain any part of the submission. This applies identically to both tracks and is a
+  significant component of the project grade.
 - **Track declaration.** You declare your track in your proposal and restate it in your final report.
 
 ##### Choosing your track
-
-Your track determines your team structure, so the two decisions are made together and recorded in your proposal.
 
 Your track is final once your proposal is submitted. There is no switching between tracks during the semester, in either direction.
 
@@ -123,7 +119,7 @@ Be aware that the line separating a demo from a research project can be somewhat
 
 #### Project logistics
 
-Team composition is determined by your track. **Artisan Track** projects may be done in **teams of 2-5 students** (individual projects are not allowed unless directly approved by the instructor. Teamwork is an essential learning objective). We expect every team member to contribute to the project (and individual contributions should be clearly listed). **Agent Track** projects are individual, one student per project.
+Both project formats may be done in **teams of 2-5 students** (individual projects are not allowed unless directly approved by the instructor. Teamwork is an essential learning objective). We expect every team member to contribute to the project (and individual contributions should be clearly listed).
 
 We will organize your project progress into **two key milestones**: (1) a preliminary proposal, and (2) a final submission/presentation.
 
